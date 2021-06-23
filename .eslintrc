@@ -1,0 +1,38 @@
+{
+    "overrides": [
+        {
+            "files": ["*.js"],
+            "extends": ["eslint:recommended"],
+            "parser": "babel-eslint",
+            "parserOptions": {
+                "ecmaVersion": 6,
+                "sourceType": "module",
+                "ecmaFeatures": {
+                    "spread": true,
+                    "experimentalObjectRestSpread": true
+                }
+            }
+        },
+        {
+            "files": ["./app/**/*.ts", "./test/**/*.ts", "./config/**/*.ts"],
+            "extends": ["eslint-config-egg/typescript", "prettier"],
+            "parserOptions": {
+                "project": "./tsconfig.json"
+            }
+        },
+        {
+            "files": ["./browser/**/*.tsx", "./browser/**/*.ts"],
+            "extends": ["react-app", "prettier"],
+            "rules": {
+                "no-redeclare": "off",
+                "@typescript-eslint/no-redeclare": "off"
+            }
+        }
+    ],
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true,
+        "commonjs": true
+    }
+}

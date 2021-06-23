@@ -1,0 +1,106 @@
+{
+  "errors": [],
+  "warnings": [],
+  "hash": "e1221814ec987b405f8a",
+  "publicPath": "/demo/csr/v1.0/",
+  "outputPath": "/Users/liujianchuan/Tutorial/project/egg2/app/public/demo/csr/v1.0",
+  "assetsByChunkName": {
+    "OtherComponent": [
+      "OtherComponent.0c60499a.chunk.css",
+      "OtherComponent.chunk.js",
+      "OtherComponent.2d29b47dcd74787d520a.hot-update.js",
+      "OtherComponent.0c60499a.chunk.css.map",
+      "OtherComponent.chunk.js.map",
+      "OtherComponent.2d29b47dcd74787d520a.hot-update.js.map"
+    ],
+    "OtherComponent2": [
+      "OtherComponent2.0c60499a.chunk.css",
+      "OtherComponent2.chunk.js",
+      "OtherComponent2.0c60499a.chunk.css.map",
+      "OtherComponent2.chunk.js.map"
+    ],
+    "main": [
+      "main.css",
+      "bundle.js",
+      "main.css.map",
+      "bundle.js.map"
+    ]
+  },
+  "assets": [],
+  "filteredAssets": 16,
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "main.css",
+        "bundle.js",
+        "main.css.map",
+        "bundle.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "OtherComponent": {
+      "chunks": [
+        "OtherComponent"
+      ],
+      "assets": [
+        "OtherComponent.0c60499a.chunk.css",
+        "OtherComponent.chunk.js",
+        "OtherComponent.2d29b47dcd74787d520a.hot-update.js",
+        "OtherComponent.0c60499a.chunk.css.map",
+        "OtherComponent.chunk.js.map",
+        "OtherComponent.2d29b47dcd74787d520a.hot-update.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "OtherComponent2": {
+      "chunks": [
+        "OtherComponent2"
+      ],
+      "assets": [
+        "OtherComponent2.0c60499a.chunk.css",
+        "OtherComponent2.chunk.js",
+        "OtherComponent2.0c60499a.chunk.css.map",
+        "OtherComponent2.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": "OtherComponent",
+      "files": [
+        "OtherComponent.0c60499a.chunk.css",
+        "OtherComponent.chunk.js",
+        "OtherComponent.2d29b47dcd74787d520a.hot-update.js",
+        "OtherComponent.0c60499a.chunk.css.map",
+        "OtherComponent.chunk.js.map",
+        "OtherComponent.2d29b47dcd74787d520a.hot-update.js.map"
+      ]
+    },
+    {
+      "id": "OtherComponent2",
+      "files": [
+        "OtherComponent2.0c60499a.chunk.css",
+        "OtherComponent2.chunk.js",
+        "OtherComponent2.0c60499a.chunk.css.map",
+        "OtherComponent2.chunk.js.map"
+      ]
+    },
+    {
+      "id": "main",
+      "files": [
+        "main.css",
+        "bundle.js",
+        "main.css.map",
+        "bundle.js.map"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "errors": [],
+  "warnings": [],
+  "hash": "06d09697be129ed2f1a3",
+  "publicPath": "/demo/csr/v1.0/",
+  "outputPath": "/Users/liujianchuan/Tutorial/project/egg2/app/public/demo/ssr",
+  "assetsByChunkName": {
+    "OtherComponent": "OtherComponent.ssr.js",
+    "OtherComponent2": "OtherComponent2.ssr.js",
+    "main": "ssr.js"
+  },
+  "assets": [],
+  "filteredAssets": 4,
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "ssr.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "OtherComponent": {
+      "chunks": [
+        "OtherComponent"
+      ],
+      "assets": [
+        "OtherComponent.ssr.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "OtherComponent2": {
+      "chunks": [
+        "OtherComponent2"
+      ],
+      "assets": [
+        "OtherComponent2.ssr.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": "OtherComponent",
+      "files": [
+        "OtherComponent.ssr.js"
+      ]
+    },
+    {
+      "id": "OtherComponent2",
+      "files": [
+        "OtherComponent2.ssr.js"
+      ]
+    },
+    {
+      "id": "main",
+      "files": [
+        "ssr.js"
+      ]
+    }
+  ]
+}
